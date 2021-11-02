@@ -1,0 +1,41 @@
+body{
+    margin: 0ch;
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div h1{
+    text-align: center;
+    margin-top: 0ch;
+    padding: 20px;
+    background-color: #000000;
+    font-family: Tahoma, sans-serif;
+    font-weight: 600;
+    color: white;
+}
+form{
+    margin: 65px 500px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    padding: 60px;
+}
+input{
+    margin: 10px 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+button{
+    margin: 10px 80px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #000000;
+    color: white;
+    font-family: Tahoma, sans-serif;
+}
+p{
+    font-family: Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: large;
+    text-align: center;
+}

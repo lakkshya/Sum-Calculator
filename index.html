@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sum Calculator</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div>
+        <h1>Sum Calculator</h1>
+    </div>
+    <form onsubmit="add()">
+        <input type="number" id="a" placeholder="First Number" aria-placeholder="First Number"><br>
+        <input type="number" id="b" placeholder="Second Number" aria-placeholder="Second Number"><br>
+        <button type="submit">Calculate</button><br>
+        <p style="display: none;" id="ans">Sum : <input id="answer"></p>
+    </form>
+
+    <script src="./index.js"></script>
+</body>
+</html>
